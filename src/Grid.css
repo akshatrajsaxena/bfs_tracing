@@ -1,0 +1,39 @@
+.grid {
+    display: inline-block;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .cell.blocked {
+    background-color: #333;
+  }
+  
+  .cell.path {
+    background-color: #f9d71c; /* Yellow to represent lightning */
+    animation: lightningEffect 0.5s linear infinite;
+  }
+  
+  @keyframes lightningEffect {
+    0% {
+      background-color: #f9d71c;
+    }
+    50% {
+      background-color: #fff700;
+    }
+    100% {
+      background-color: #f9d71c;
+    }
+  }
+  
