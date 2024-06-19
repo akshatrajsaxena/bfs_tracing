@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# BFS Tracing Project (Demo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the BFS Tracing Project! This project demonstrates a visual representation of a Breadth-First Search (BFS) algorithm on a dynamically generated grid. Below you will find detailed information about the project, including how to set it up, the technologies used, and its structure.
 
-## Available Scripts
+### Note
+This project is just a demo that i made in order to understand the concept of BFS and how it is used as algorithm in the code to find the possible path. The final project might be different, even other langages can also be included. That project will be updated soon. I will attached its github link once its done.
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+In this project, I developed a visually appealing UI that generates a random grid each time it starts. The grid is then traversed using the BFS algorithm to find a possible path. If a solution exists, the path is highlighted; otherwise, "No path found" is displayed. This project is built using the React framework and JavaScript, leveraging modern web development techniques for an interactive and dynamic user experience.
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React: A JavaScript library for building user interfaces.
+JavaScript: The programming language used for logic and algorithms.
+CSS: For styling and layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+The project is organized into several components and directories for better maintainability:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+src/components: Contains all React components, such as Header, Footer, Experience, and Projects.
+src/assets: Stores images, icons, and other static assets.
+src/styles: Includes CSS modules for styling components.
+src/data: Contains JSON files with data for skills and history (now embedded directly in components).
+src/utils: Utility functions, like getImageUrl.
+public: Public assets and the main HTML file.
 
-### `npm run build`
+## Main Components
+App.js: The root component that includes the main layout and routing.
+Game.js: Handles the game logic and renders the grid.
+PathFinder.js: Contains the BFS algorithm implementation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### When path is found
+![Screenshot 2024-06-19 092015](https://github.com/akshatrajsaxena/bfs_tracing/assets/119042958/d6928e06-8931-4ad2-9081-950f4795fbd3)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### When No path found
+![Screenshot 2024-06-19 092026](https://github.com/akshatrajsaxena/bfs_tracing/assets/119042958/e712f864-a05f-4269-89db-f2cae287be04)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Access the Project
 
-### Code Splitting
+Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+```
+[[git clone https://github.com/your-username/bfs-tracing.git]](https://github.com/akshatrajsaxena/bfs_tracing.git)
+cd bfs-tracing
+```
+Install Dependencies
 
-### Analyzing the Bundle Size
+bash
+```
+npm install
+```
+Run the Development Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+```
+npm start
+```
+Open http://localhost:3000 in your browser to view the project.
+Purpose of This Project
 
-### Making a Progressive Web App
+The purpose of this project is to visualize the BFS algorithm's process in solving a dynamically generated grid. It aims to provide a clear and interactive demonstration of pathfinding algorithms.
+Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The project uses CSS modules for styling, ensuring scoped and maintainable CSS. It also utilizes CSS Flexbox and Grid for layout management.
+How to Contribute
 
-### Advanced Configuration
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or would like to get in touch, you can reach me at akshat22054@iiitd.ac.in.
