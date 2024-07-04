@@ -1,6 +1,6 @@
 # BFS Tracing Project (Demo)
 
-Welcome to the BFS Tracing Project! This project demonstrates a visual representation of a Breadth-First Search (BFS) algorithm on a dynamically generated grid. Below you will find detailed information about the project, including how to set it up, the technologies used, and its structure.
+Welcome to the BFS Tracing Project! This project demonstrates a visual representation of a Breadth-First Search (BFS) algorithm on a dynamically generated grid. Below you will find detailed information about the project, including how to set it up, the technologies used, and its structure. This is a Demo Project.
 
 ### Note
 This project is just a demo that i made in order to understand the concept of BFS and how it is used as algorithm in the code to find the possible path. This is not the final project. The final project might be different, even other langages can also be included. That project will be updated soon. I will attached its github link once its done.
