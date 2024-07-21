@@ -6,7 +6,7 @@
   <a href="https://github.com/akshatrajsaxena/bfs_tracing/pulls"><img src="https://img.shields.io/github/issues-pr/akshatrajsaxena/bfs_tracing" alt="Pull Requests Badge"/></a>
   <a href="https://github.com/akshatrajsaxena/bfs_tracing/issues"><img src="https://img.shields.io/github/issues/akshatrajsaxena/bfs_tracing" alt="Issues Badge"/></a>
   <a href="https://github.com/akshatrajsaxena/bfs_tracing/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/akshatrajsaxena/bfs_tracing" ?color=2b9348"></a>
-  <a href="https://github.com/akshatrajsaxena/bfs_tracing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/akshatrajsaxena/bfs_tracing ?color=2b9348" alt="License Badge"/></a>
+  <a href="https://github.com/akshatrajsaxena/bfs_tracing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/akshatrajsaxena/bfs_tracing?color=2b9348" alt="License Badge"/></a>
 </div>
 <br>
 
