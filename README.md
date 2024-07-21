@@ -93,4 +93,4 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 ## Contact
 
-If you have any questions or would like to get in touch, you can reach me at akshat22054@iiitd.ac.in.
+If you have any questions or would like to get in touch, you can reach me at [Mail me](akshat22054@iiitd.ac.in).
