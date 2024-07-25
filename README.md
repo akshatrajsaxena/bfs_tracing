@@ -10,7 +10,6 @@
 </div>
 <br>
 
-
 # BFS Tracing Project (Demo)
 
 Welcome to the BFS Tracing Project! This project demonstrates a visual representation of a Breadth-First Search (BFS) algorithm on a dynamically generated grid. Below you will find detailed information about the project, including how to set it up, the technologies used, and its structure. This is a Demo Project.
@@ -43,19 +42,12 @@ App.js: The root component that includes the main layout and routing.
 Game.js: Handles the game logic and renders the grid.
 PathFinder.js: Contains the BFS algorithm implementation.
 
-
-
-
 ### When path is found
 ![Screenshot 2024-06-19 092015](https://github.com/akshatrajsaxena/bfs_tracing/assets/119042958/d6928e06-8931-4ad2-9081-950f4795fbd3)
 
 
-
 ### When No path found
 ![Screenshot 2024-06-19 092026](https://github.com/akshatrajsaxena/bfs_tracing/assets/119042958/e712f864-a05f-4269-89db-f2cae287be04)
-
-
-
 
 ## How to Access the Project
 
@@ -88,8 +80,6 @@ The project uses CSS modules for styling, ensuring scoped and maintainable CSS. 
 How to Contribute
 
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
-
-
 
 ## Contact
 
