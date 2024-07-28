@@ -1,6 +1,7 @@
 const PathFinder = (grid) => {
     const rows = grid.length;
     const cols = grid[0].length;
+    
     const directions = [
       [1, 0],
       [0, 1],
@@ -43,6 +44,7 @@ const PathFinder = (grid) => {
   
     return bfs([0, 0], [rows - 1, cols - 1]);
   };
-  
+
+
   export default PathFinder;
   
